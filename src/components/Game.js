@@ -24,7 +24,7 @@ const Game = () => {
     setBoard(boardCopy);
     setXisNext(!xIsNext);
   };
-  const jumpTo = () => { };
+
 
   const renderMoves = () => {
     return <button onClick={() => setBoard(Array(9).fill(null))}>
